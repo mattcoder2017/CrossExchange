@@ -27,6 +27,10 @@ namespace XOProject.Controller
         public async Task<IActionResult> GetAllTradings([FromRoute]int portFolioid)
         {
             var trade = _tradeRepository.Query().Where(x => x.PortfolioId.Equals(portFolioid));
+            // Code smell - lacking indication for non-existed trades
+            if (trade.Count<Trade>() == 0)
+               return NotFound();
+
             return Ok(trade);
         }
 

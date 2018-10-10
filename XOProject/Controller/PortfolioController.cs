@@ -18,7 +18,11 @@ namespace XOProject.Controller
         public async Task<IActionResult> GetPortfolioInfo([FromRoute]int portFolioid)
         {
             var portfolio = _portfolioRepository.GetAll().Where(x => x.Id.Equals(portFolioid));
-            
+
+            // Code smell, Lack indication if fetching non-existed record
+            if (portfolio.Count<Portfolio>() == 0)
+                return NotFound();
+
             return Ok(portfolio);
         }
 

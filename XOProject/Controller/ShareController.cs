@@ -31,12 +31,17 @@ namespace XOProject.Controller
         public async Task<IActionResult> Get([FromRoute]string symbol)
         {
             var shares = _shareRepository.Query().Where(x => x.Symbol.Equals(symbol)).ToList();
-            if (shares.Count >= 0)
+            if (shares.Count > 0)
             {
                 return Ok(shares);
             }
             else
-                return BadRequest();
+                //Code smell, According the HTTP RFC, http://www.ietf.org/rfc/rfc2616.txt, a 400 Bad Request means:
+                //The request could not be understood by the server due to malformed syntax.
+                //Which is not appropriate in this context
+
+                //return BadRequest();
+                return NotFound();
         }
 
 
