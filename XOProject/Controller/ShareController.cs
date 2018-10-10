@@ -19,7 +19,9 @@ namespace XOProject.Controller
         [HttpPut("{symbol}")]
         public async void UpdateLastPrice([FromRoute]string symbol)
         {
-            var share = await _shareRepository.Query().Where(x => x.Symbol.Equals(symbol)).OrderByDescending(x => x.Rate).FirstOrDefaultAsync();
+            // Comment out the code which is not fetching the last share info
+            // var share = await _shareRepository.Query().Where(x => x.Symbol.Equals(symbol)).OrderByDescending(x => x.Rate).FirstOrDefaultAsync();
+            var share = await _shareRepository.Query().Where(x => x.Symbol.Equals(symbol)).OrderByDescending(x => x.TimeStamp).FirstOrDefaultAsync();
             share.Rate =+ 10;
             await _shareRepository.UpdateAsync(share);
         }
@@ -40,8 +42,10 @@ namespace XOProject.Controller
 
         [HttpGet("{symbol}/Latest")]
         public async Task<IActionResult> GetLatestPrice([FromRoute]string symbol)
-        {
-            var share = await _shareRepository.Query().Where(x => x.Symbol.Equals(symbol)).FirstOrDefaultAsync();
+        {  
+            //Bug fix - comment out the code which not fetching the most recent share quote
+            //var share = await _shareRepository.Query().Where(x => x.Symbol.Equals(symbol)).FirstOrDefaultAsync();
+            var share = await _shareRepository.Query().Where(x => x.Symbol.Equals(symbol)).OrderByDescending(x=>x.TimeStamp).FirstOrDefaultAsync();
             return Ok(share?.Rate);
         }
 
