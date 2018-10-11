@@ -20,6 +20,70 @@ namespace XOProject.Tests
         }
 
         [Test]
+        public async Task Get_NoMatchingData_ShouldReturnNotFound()
+        {
+            // Arrange
+            var hourRates = new List<HourlyShareRate>() {
+                 new HourlyShareRate {
+                    Symbol = "CBI",
+                    Rate = 330.0M,
+                    TimeStamp = new DateTime(2019, 08, 17, 5, 0, 0)
+                  },
+                  new HourlyShareRate {
+                    Symbol = "CBI",
+                    Rate = 130.0M,
+                    TimeStamp = new DateTime(2020, 08, 17, 5, 0, 0)
+                  },
+                  new HourlyShareRate {
+                    Symbol = "CBI",
+                    Rate = 430.0M,
+                    TimeStamp = new DateTime(2018, 08, 17, 5, 0, 0)
+                 }
+            };
+            var mockSet = new Mock<DbSet<HourlyShareRate>>();
+            mockSet.MockDbSet<HourlyShareRate>(hourRates);
+
+            var mockContext = new Mock<ExchangeContext>();
+            var mockRepository = new Mock<ShareRepository>(mockContext.Object);
+            var shareController = new ShareController(mockRepository.Object);
+
+            mockContext.Setup(i => i.Set<HourlyShareRate>()).Returns(mockSet.Object);
+
+            // Act
+            var result = shareController.Get("CEL").GetAwaiter().GetResult() as NotFoundResult;
+
+            // Assert
+            Assert.AreEqual(404, result.StatusCode);
+            }
+
+        [Test]
+        public async Task Get_FoundMatchingData_ShouldReturnOk()
+        {
+            // Arrange
+            var hourRates = new List<HourlyShareRate>() {
+                    new HourlyShareRate {
+                    Symbol = "CBI",
+                    Rate = 430.0M,
+                    TimeStamp = new DateTime(2018, 08, 17, 5, 0, 0)
+                 }
+            };
+            var mockSet = new Mock<DbSet<HourlyShareRate>>();
+            mockSet.MockDbSet<HourlyShareRate>(hourRates);
+
+            var mockContext = new Mock<ExchangeContext>();
+            var mockRepository = new Mock<ShareRepository>(mockContext.Object);
+            var shareController = new ShareController(mockRepository.Object);
+
+            mockContext.Setup(i => i.Set<HourlyShareRate>()).Returns(mockSet.Object);
+
+            // Act
+            var result = shareController.Get("CBI").GetAwaiter().GetResult() as OkObjectResult;
+
+            // Assert
+            Assert.AreEqual(200, result.StatusCode);
+        }
+
+        [Test]
         public async Task Post_ShouldInsertHourlySharePrice()
         {
             var hourRate = new HourlyShareRate

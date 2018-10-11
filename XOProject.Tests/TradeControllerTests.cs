@@ -96,5 +96,41 @@ namespace XOProject.Tests
             Assert.AreEqual(404, result.StatusCode);
            
         }
+
+        [Test]
+        public async Task GetAllTrading_NoMatchingData_ShouldReturnNotFound()
+        {
+            //Arrange
+            // Seeding the test data with only BUY data presents
+            var returnTrade1 = new Trade[2]
+             {
+               new Trade { Id = 0, Action = TradeAnalysis.ACTION_BUY, NoOfShares = 10, PortfolioId = 1, Price = 10, Symbol = "CBI" },
+               new Trade { Id = 0, Action = TradeAnalysis.ACTION_BUY, NoOfShares = 20, PortfolioId = 1, Price = 10, Symbol = "CBI" }
+              };
+            _tradeRepositoryMock.Setup(i => i.Query()).Returns(returnTrade1.AsQueryable());
+            //Act
+            var result = _tradeController.GetAllTradings(2).GetAwaiter().GetResult() as NotFoundResult;
+            //Assert
+            Assert.AreEqual(404, result.StatusCode);
+
+        }
+
+        [Test]
+        public async Task GetAllTrading_FoundMatchingData_ShouldReturnOk()
+        {
+            //Arrange
+            // Seeding the test data with only BUY data presents
+            var returnTrade1 = new Trade[2]
+             {
+               new Trade { Id = 0, Action = TradeAnalysis.ACTION_BUY, NoOfShares = 10, PortfolioId = 1, Price = 10, Symbol = "CBI" },
+               new Trade { Id = 0, Action = TradeAnalysis.ACTION_BUY, NoOfShares = 20, PortfolioId = 1, Price = 10, Symbol = "CBI" }
+              };
+            _tradeRepositoryMock.Setup(i => i.Query()).Returns(returnTrade1.AsQueryable());
+            //Act
+            var result = _tradeController.GetAllTradings(1).GetAwaiter().GetResult() as OkObjectResult;
+            //Assert
+            Assert.AreEqual(200, result.StatusCode);
+
+        }
     }
 }

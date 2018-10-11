@@ -20,7 +20,7 @@ namespace XOProject.Tests
         }
 
         [Test]
-        public async Task GetPortfolioInfo_ReturnOK()
+        public async Task GetPortfolioInfo_FoundMatchingData_ReturnOK()
         {
             // Arrange
             _portfolioRepositoryMock.Setup(i => i.GetAll()).Returns
@@ -32,8 +32,21 @@ namespace XOProject.Tests
             // Assert
             Assert.AreEqual(200, result.StatusCode);
             var resultSet = result.Value as IQueryable<Portfolio>;
-           Assert.AreEqual(1, resultSet.Count());
+            Assert.AreEqual(1, resultSet.Count());
+        }
 
+        [Test]
+        public async Task GetPortfolioInfo_NoMatchingData_ReturnNotFound()
+        {
+            // Arrange
+            _portfolioRepositoryMock.Setup(i => i.GetAll()).Returns
+                (new Portfolio[0] { }.AsQueryable());
+
+            // Act
+            var result = _portfolioController.GetPortfolioInfo(1).GetAwaiter().GetResult() as NotFoundResult;
+
+            // Assert
+            Assert.AreEqual(404, result.StatusCode);
         }
 
         [Test]

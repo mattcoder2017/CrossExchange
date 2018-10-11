@@ -40,18 +40,12 @@ namespace XOProject.Authentication
                 {
                     await _next.Invoke(context);
                 }
-                else
-                {
-                    context.Response.StatusCode = 401; //Unauthorized
-                    return;
-                }
+             
             }
-            else
-            {
-                // no authorization header
+         
                 context.Response.StatusCode = 401; //Unauthorized
                 return;
-            }
+        
         }
     }
 

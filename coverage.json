@@ -8,12 +8,302 @@
     {
       "Name": "XO-Project",
       "SourceFiles": {
+        "XOProject\\Authentication\\XOAuthenticationMiddleware.cs": {
+          "Instructions": [
+            {
+              "Id": 189,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 9,
+              "EndColumn": 64,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 190,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 13,
+              "EndColumn": 26,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate)",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 191,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 74,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 192,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 13,
+              "EndColumn": 70,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_0037: ldarg "
+            },
+            {
+              "Id": 193,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 17,
+              "EndColumn": 95,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_005a: ldarg "
+            },
+            {
+              "Id": 194,
+              "StartLine": 31,
+              "EndLine": 31,
+              "StartColumn": 17,
+              "EndColumn": 72,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_007a: ldarg "
+            },
+            {
+              "Id": 195,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 17,
+              "EndColumn": 113,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_008a: ldarg "
+            },
+            {
+              "Id": 196,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 17,
+              "EndColumn": 68,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_00a6: ldarg "
+            },
+            {
+              "Id": 197,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 17,
+              "EndColumn": 78,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_00b9: ldarg "
+            },
+            {
+              "Id": 198,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 17,
+              "EndColumn": 79,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_00d1: ldarg "
+            },
+            {
+              "Id": 199,
+              "StartLine": 39,
+              "EndLine": 39,
+              "StartColumn": 17,
+              "EndColumn": 72,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 200,
+              "StartLine": 41,
+              "EndLine": 41,
+              "StartColumn": 21,
+              "EndColumn": 49,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_0114: ldarg "
+            },
+            {
+              "Id": 201,
+              "StartLine": 46,
+              "EndLine": 46,
+              "StartColumn": 17,
+              "EndColumn": 51,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_01aa: ldarg "
+            },
+            {
+              "Id": 202,
+              "StartLine": 47,
+              "EndLine": 47,
+              "StartColumn": 17,
+              "EndColumn": 24,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_01c0: leave IL_01dc"
+            },
+            {
+              "Id": 203,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 74,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 204,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 13,
+              "EndColumn": 70,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_0037: ldarg "
+            },
+            {
+              "Id": 205,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 17,
+              "EndColumn": 95,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_005a: ldarg "
+            },
+            {
+              "Id": 206,
+              "StartLine": 31,
+              "EndLine": 31,
+              "StartColumn": 17,
+              "EndColumn": 72,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_007a: ldarg "
+            },
+            {
+              "Id": 207,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 17,
+              "EndColumn": 113,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_008a: ldarg "
+            },
+            {
+              "Id": 208,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 17,
+              "EndColumn": 68,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_00a6: ldarg "
+            },
+            {
+              "Id": 209,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 17,
+              "EndColumn": 78,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_00b9: ldarg "
+            },
+            {
+              "Id": 210,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 17,
+              "EndColumn": 79,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_00d1: ldarg "
+            },
+            {
+              "Id": 211,
+              "StartLine": 39,
+              "EndLine": 39,
+              "StartColumn": 17,
+              "EndColumn": 72,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_00ea: ldarg "
+            },
+            {
+              "Id": 212,
+              "StartLine": 41,
+              "EndLine": 41,
+              "StartColumn": 21,
+              "EndColumn": 49,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_0114: ldarg "
+            },
+            {
+              "Id": 213,
+              "StartLine": 46,
+              "EndLine": 46,
+              "StartColumn": 17,
+              "EndColumn": 51,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_01aa: ldarg "
+            },
+            {
+              "Id": 214,
+              "StartLine": 47,
+              "EndLine": 47,
+              "StartColumn": 17,
+              "EndColumn": 24,
+              "Class": "XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Authentication.XOAuthenticationMiddleware/<Invoke>d__2::MoveNext()",
+              "Instruction": "IL_01c0: leave IL_01dc"
+            }
+          ]
+        },
         "XOProject\\Controller\\PortfolioController.cs": {
           "Instructions": [
             {
               "Id": 99,
-              "StartLine": 10,
-              "EndLine": 10,
+              "StartLine": 12,
+              "EndLine": 12,
               "StartColumn": 61,
               "EndColumn": 65,
               "Class": "XOProject.Controller.PortfolioController",
@@ -23,8 +313,8 @@
             },
             {
               "Id": 100,
-              "StartLine": 10,
-              "EndLine": 10,
+              "StartLine": 12,
+              "EndLine": 12,
               "StartColumn": 66,
               "EndColumn": 70,
               "Class": "XOProject.Controller.PortfolioController",
@@ -34,8 +324,8 @@
             },
             {
               "Id": 101,
-              "StartLine": 12,
-              "EndLine": 12,
+              "StartLine": 14,
+              "EndLine": 14,
               "StartColumn": 9,
               "EndColumn": 145,
               "Class": "XOProject.Controller.PortfolioController",
@@ -45,8 +335,8 @@
             },
             {
               "Id": 102,
-              "StartLine": 14,
-              "EndLine": 14,
+              "StartLine": 16,
+              "EndLine": 16,
               "StartColumn": 13,
               "EndColumn": 56,
               "Class": "XOProject.Controller.PortfolioController",
@@ -56,8 +346,8 @@
             },
             {
               "Id": 103,
-              "StartLine": 20,
-              "EndLine": 20,
+              "StartLine": 22,
+              "EndLine": 22,
               "StartColumn": 13,
               "EndColumn": 96,
               "Class": "XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5",
@@ -67,10 +357,10 @@
             },
             {
               "Id": 104,
-              "StartLine": 22,
-              "EndLine": 22,
+              "StartLine": 25,
+              "EndLine": 25,
               "StartColumn": 13,
-              "EndColumn": 34,
+              "EndColumn": 51,
               "Class": "XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5",
               "Method": "MoveNext",
               "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5::MoveNext()",
@@ -78,8 +368,30 @@
             },
             {
               "Id": 105,
-              "StartLine": 20,
-              "EndLine": 20,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5::MoveNext()",
+              "Instruction": "IL_00cb: ldarg "
+            },
+            {
+              "Id": 106,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 13,
+              "EndColumn": 34,
+              "Class": "XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5::MoveNext()",
+              "Instruction": "IL_00d9: ldarg "
+            },
+            {
+              "Id": 107,
+              "StartLine": 22,
+              "EndLine": 22,
               "StartColumn": 13,
               "EndColumn": 96,
               "Class": "XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5",
@@ -88,64 +400,42 @@
               "Instruction": "IL_0024: ldarg "
             },
             {
-              "Id": 106,
-              "StartLine": 22,
-              "EndLine": 22,
+              "Id": 108,
+              "StartLine": 25,
+              "EndLine": 25,
               "StartColumn": 13,
-              "EndColumn": 34,
+              "EndColumn": 51,
               "Class": "XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5",
               "Method": "MoveNext",
               "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5::MoveNext()",
               "Instruction": "IL_00b9: ldarg "
             },
             {
-              "Id": 107,
-              "StartLine": 29,
-              "EndLine": 29,
-              "StartColumn": 13,
-              "EndColumn": 37,
-              "Class": "XOProject.Controller.PortfolioController/<Post>d__6",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<Post>d__6::MoveNext()",
-              "Instruction": "IL_0012: ldarg "
-            },
-            {
-              "Id": 108,
-              "StartLine": 31,
-              "EndLine": 31,
-              "StartColumn": 17,
-              "EndColumn": 47,
-              "Class": "XOProject.Controller.PortfolioController/<Post>d__6",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<Post>d__6::MoveNext()",
-              "Instruction": "IL_002a: ldarg "
-            },
-            {
               "Id": 109,
-              "StartLine": 34,
-              "EndLine": 34,
-              "StartColumn": 13,
-              "EndColumn": 59,
-              "Class": "XOProject.Controller.PortfolioController/<Post>d__6",
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<Post>d__6::MoveNext()",
-              "Instruction": "IL_0046: ldarg "
+              "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5::MoveNext()",
+              "Instruction": "IL_00cb: ldarg "
             },
             {
               "Id": 110,
-              "StartLine": 36,
-              "EndLine": 36,
+              "StartLine": 28,
+              "EndLine": 28,
               "StartColumn": 13,
-              "EndColumn": 60,
-              "Class": "XOProject.Controller.PortfolioController/<Post>d__6",
+              "EndColumn": 34,
+              "Class": "XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<Post>d__6::MoveNext()",
-              "Instruction": "IL_00b7: ldarg "
+              "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<GetPortfolioInfo>d__5::MoveNext()",
+              "Instruction": "IL_00d9: ldarg "
             },
             {
               "Id": 111,
-              "StartLine": 29,
-              "EndLine": 29,
+              "StartLine": 34,
+              "EndLine": 34,
               "StartColumn": 13,
               "EndColumn": 37,
               "Class": "XOProject.Controller.PortfolioController/<Post>d__6",
@@ -155,8 +445,8 @@
             },
             {
               "Id": 112,
-              "StartLine": 31,
-              "EndLine": 31,
+              "StartLine": 36,
+              "EndLine": 36,
               "StartColumn": 17,
               "EndColumn": 47,
               "Class": "XOProject.Controller.PortfolioController/<Post>d__6",
@@ -166,8 +456,8 @@
             },
             {
               "Id": 113,
-              "StartLine": 34,
-              "EndLine": 34,
+              "StartLine": 39,
+              "EndLine": 39,
               "StartColumn": 13,
               "EndColumn": 59,
               "Class": "XOProject.Controller.PortfolioController/<Post>d__6",
@@ -177,8 +467,52 @@
             },
             {
               "Id": 114,
+              "StartLine": 41,
+              "EndLine": 41,
+              "StartColumn": 13,
+              "EndColumn": 60,
+              "Class": "XOProject.Controller.PortfolioController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_00b7: ldarg "
+            },
+            {
+              "Id": 115,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "XOProject.Controller.PortfolioController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 116,
               "StartLine": 36,
               "EndLine": 36,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "XOProject.Controller.PortfolioController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 117,
+              "StartLine": 39,
+              "EndLine": 39,
+              "StartColumn": 13,
+              "EndColumn": 59,
+              "Class": "XOProject.Controller.PortfolioController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.PortfolioController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_0046: ldarg "
+            },
+            {
+              "Id": 118,
+              "StartLine": 41,
+              "EndLine": 41,
               "StartColumn": 13,
               "EndColumn": 60,
               "Class": "XOProject.Controller.PortfolioController/<Post>d__6",
@@ -191,7 +525,7 @@
         "XOProject\\Controller\\ShareController.cs": {
           "Instructions": [
             {
-              "Id": 115,
+              "Id": 119,
               "StartLine": 12,
               "EndLine": 12,
               "StartColumn": 52,
@@ -202,7 +536,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 116,
+              "Id": 120,
               "StartLine": 12,
               "EndLine": 12,
               "StartColumn": 57,
@@ -213,7 +547,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 117,
+              "Id": 121,
               "StartLine": 14,
               "EndLine": 14,
               "StartColumn": 9,
@@ -224,7 +558,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 118,
+              "Id": 122,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 13,
@@ -235,62 +569,29 @@
               "Instruction": "IL_0008: ldarg "
             },
             {
-              "Id": 119,
-              "StartLine": 24,
-              "EndLine": 24,
-              "StartColumn": 13,
-              "EndColumn": 150,
-              "Class": "XOProject.Controller.ShareController/<UpdateLastPrice>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<UpdateLastPrice>d__5::MoveNext()",
-              "Instruction": "IL_0039: ldarg "
-            },
-            {
-              "Id": 120,
-              "StartLine": 25,
-              "EndLine": 25,
-              "StartColumn": 13,
-              "EndColumn": 30,
-              "Class": "XOProject.Controller.ShareController/<UpdateLastPrice>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<UpdateLastPrice>d__5::MoveNext()",
-              "Instruction": "IL_0187: ldarg "
-            },
-            {
-              "Id": 121,
-              "StartLine": 26,
-              "EndLine": 26,
-              "StartColumn": 13,
-              "EndColumn": 55,
-              "Class": "XOProject.Controller.ShareController/<UpdateLastPrice>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<UpdateLastPrice>d__5::MoveNext()",
-              "Instruction": "IL_019a: ldarg "
-            },
-            {
-              "Id": 122,
-              "StartLine": 24,
-              "EndLine": 24,
-              "StartColumn": 13,
-              "EndColumn": 150,
-              "Class": "XOProject.Controller.ShareController/<UpdateLastPrice>d__5",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<UpdateLastPrice>d__5::MoveNext()",
-              "Instruction": "IL_0039: ldarg "
-            },
-            {
               "Id": 123,
-              "StartLine": 25,
-              "EndLine": 25,
+              "StartLine": 24,
+              "EndLine": 24,
               "StartColumn": 13,
-              "EndColumn": 30,
+              "EndColumn": 150,
               "Class": "XOProject.Controller.ShareController/<UpdateLastPrice>d__5",
               "Method": "MoveNext",
               "MethodFullName": "System.Void XOProject.Controller.ShareController/<UpdateLastPrice>d__5::MoveNext()",
-              "Instruction": "IL_0187: ldarg "
+              "Instruction": "IL_0039: ldarg "
             },
             {
               "Id": 124,
+              "StartLine": 25,
+              "EndLine": 25,
+              "StartColumn": 13,
+              "EndColumn": 30,
+              "Class": "XOProject.Controller.ShareController/<UpdateLastPrice>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<UpdateLastPrice>d__5::MoveNext()",
+              "Instruction": "IL_0187: ldarg "
+            },
+            {
+              "Id": 125,
               "StartLine": 26,
               "EndLine": 26,
               "StartColumn": 13,
@@ -301,48 +602,37 @@
               "Instruction": "IL_019a: ldarg "
             },
             {
-              "Id": 125,
-              "StartLine": 33,
-              "EndLine": 33,
-              "StartColumn": 13,
-              "EndColumn": 96,
-              "Class": "XOProject.Controller.ShareController/<Get>d__6",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Get>d__6::MoveNext()",
-              "Instruction": "IL_0024: ldarg "
-            },
-            {
               "Id": 126,
-              "StartLine": 34,
-              "EndLine": 34,
+              "StartLine": 24,
+              "EndLine": 24,
               "StartColumn": 13,
-              "EndColumn": 35,
-              "Class": "XOProject.Controller.ShareController/<Get>d__6",
+              "EndColumn": 150,
+              "Class": "XOProject.Controller.ShareController/<UpdateLastPrice>d__5",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Get>d__6::MoveNext()",
-              "Instruction": "IL_00be: ldarg "
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<UpdateLastPrice>d__5::MoveNext()",
+              "Instruction": "IL_0039: ldarg "
             },
             {
               "Id": 127,
-              "StartLine": 36,
-              "EndLine": 36,
-              "StartColumn": 17,
-              "EndColumn": 35,
-              "Class": "XOProject.Controller.ShareController/<Get>d__6",
+              "StartLine": 25,
+              "EndLine": 25,
+              "StartColumn": 13,
+              "EndColumn": 30,
+              "Class": "XOProject.Controller.ShareController/<UpdateLastPrice>d__5",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Get>d__6::MoveNext()",
-              "Instruction": "IL_00d4: ldarg "
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<UpdateLastPrice>d__5::MoveNext()",
+              "Instruction": "IL_0187: ldarg "
             },
             {
               "Id": 128,
-              "StartLine": 39,
-              "EndLine": 39,
-              "StartColumn": 17,
-              "EndColumn": 37,
-              "Class": "XOProject.Controller.ShareController/<Get>d__6",
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 55,
+              "Class": "XOProject.Controller.ShareController/<UpdateLastPrice>d__5",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Get>d__6::MoveNext()",
-              "Instruction": "IL_00e8: ldarg "
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<UpdateLastPrice>d__5::MoveNext()",
+              "Instruction": "IL_019a: ldarg "
             },
             {
               "Id": 129,
@@ -360,7 +650,7 @@
               "StartLine": 34,
               "EndLine": 34,
               "StartColumn": 13,
-              "EndColumn": 35,
+              "EndColumn": 34,
               "Class": "XOProject.Controller.ShareController/<Get>d__6",
               "Method": "MoveNext",
               "MethodFullName": "System.Void XOProject.Controller.ShareController/<Get>d__6::MoveNext()",
@@ -375,45 +665,67 @@
               "Class": "XOProject.Controller.ShareController/<Get>d__6",
               "Method": "MoveNext",
               "MethodFullName": "System.Void XOProject.Controller.ShareController/<Get>d__6::MoveNext()",
-              "Instruction": "IL_00d4: ldarg "
+              "Instruction": "IL_00d1: ldarg "
             },
             {
               "Id": 132,
-              "StartLine": 39,
-              "EndLine": 39,
+              "StartLine": 44,
+              "EndLine": 44,
               "StartColumn": 17,
-              "EndColumn": 37,
+              "EndColumn": 35,
               "Class": "XOProject.Controller.ShareController/<Get>d__6",
               "Method": "MoveNext",
               "MethodFullName": "System.Void XOProject.Controller.ShareController/<Get>d__6::MoveNext()",
-              "Instruction": "IL_00e8: ldarg "
+              "Instruction": "IL_00e5: ldarg "
             },
             {
               "Id": 133,
-              "StartLine": 48,
-              "EndLine": 48,
+              "StartLine": 33,
+              "EndLine": 33,
               "StartColumn": 13,
-              "EndColumn": 148,
-              "Class": "XOProject.Controller.ShareController/<GetLatestPrice>d__7",
+              "EndColumn": 96,
+              "Class": "XOProject.Controller.ShareController/<Get>d__6",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<GetLatestPrice>d__7::MoveNext()",
-              "Instruction": "IL_002e: ldarg "
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Get>d__6::MoveNext()",
+              "Instruction": "IL_0024: ldarg "
             },
             {
               "Id": 134,
-              "StartLine": 49,
-              "EndLine": 49,
+              "StartLine": 34,
+              "EndLine": 34,
               "StartColumn": 13,
-              "EndColumn": 36,
-              "Class": "XOProject.Controller.ShareController/<GetLatestPrice>d__7",
+              "EndColumn": 34,
+              "Class": "XOProject.Controller.ShareController/<Get>d__6",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<GetLatestPrice>d__7::MoveNext()",
-              "Instruction": "IL_017d: ldarg "
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Get>d__6::MoveNext()",
+              "Instruction": "IL_00be: ldarg "
             },
             {
               "Id": 135,
-              "StartLine": 48,
-              "EndLine": 48,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "XOProject.Controller.ShareController/<Get>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Get>d__6::MoveNext()",
+              "Instruction": "IL_00d1: ldarg "
+            },
+            {
+              "Id": 136,
+              "StartLine": 44,
+              "EndLine": 44,
+              "StartColumn": 17,
+              "EndColumn": 35,
+              "Class": "XOProject.Controller.ShareController/<Get>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Get>d__6::MoveNext()",
+              "Instruction": "IL_00e5: ldarg "
+            },
+            {
+              "Id": 137,
+              "StartLine": 53,
+              "EndLine": 53,
               "StartColumn": 13,
               "EndColumn": 148,
               "Class": "XOProject.Controller.ShareController/<GetLatestPrice>d__7",
@@ -422,9 +734,9 @@
               "Instruction": "IL_002e: ldarg "
             },
             {
-              "Id": 136,
-              "StartLine": 49,
-              "EndLine": 49,
+              "Id": 138,
+              "StartLine": 54,
+              "EndLine": 54,
               "StartColumn": 13,
               "EndColumn": 36,
               "Class": "XOProject.Controller.ShareController/<GetLatestPrice>d__7",
@@ -433,53 +745,31 @@
               "Instruction": "IL_017d: ldarg "
             },
             {
-              "Id": 137,
-              "StartLine": 55,
-              "EndLine": 55,
-              "StartColumn": 13,
-              "EndColumn": 37,
-              "Class": "XOProject.Controller.ShareController/<Post>d__8",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Post>d__8::MoveNext()",
-              "Instruction": "IL_0012: ldarg "
-            },
-            {
-              "Id": 138,
-              "StartLine": 57,
-              "EndLine": 57,
-              "StartColumn": 17,
-              "EndColumn": 47,
-              "Class": "XOProject.Controller.ShareController/<Post>d__8",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Post>d__8::MoveNext()",
-              "Instruction": "IL_002a: ldarg "
-            },
-            {
               "Id": 139,
-              "StartLine": 60,
-              "EndLine": 60,
+              "StartLine": 53,
+              "EndLine": 53,
               "StartColumn": 13,
-              "EndColumn": 55,
-              "Class": "XOProject.Controller.ShareController/<Post>d__8",
+              "EndColumn": 148,
+              "Class": "XOProject.Controller.ShareController/<GetLatestPrice>d__7",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Post>d__8::MoveNext()",
-              "Instruction": "IL_0046: ldarg "
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<GetLatestPrice>d__7::MoveNext()",
+              "Instruction": "IL_002e: ldarg "
             },
             {
               "Id": 140,
-              "StartLine": 62,
-              "EndLine": 62,
+              "StartLine": 54,
+              "EndLine": 54,
               "StartColumn": 13,
-              "EndColumn": 56,
-              "Class": "XOProject.Controller.ShareController/<Post>d__8",
+              "EndColumn": 36,
+              "Class": "XOProject.Controller.ShareController/<GetLatestPrice>d__7",
               "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Post>d__8::MoveNext()",
-              "Instruction": "IL_00b7: ldarg "
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<GetLatestPrice>d__7::MoveNext()",
+              "Instruction": "IL_017d: ldarg "
             },
             {
               "Id": 141,
-              "StartLine": 55,
-              "EndLine": 55,
+              "StartLine": 60,
+              "EndLine": 60,
               "StartColumn": 13,
               "EndColumn": 37,
               "Class": "XOProject.Controller.ShareController/<Post>d__8",
@@ -489,8 +779,8 @@
             },
             {
               "Id": 142,
-              "StartLine": 57,
-              "EndLine": 57,
+              "StartLine": 62,
+              "EndLine": 62,
               "StartColumn": 17,
               "EndColumn": 47,
               "Class": "XOProject.Controller.ShareController/<Post>d__8",
@@ -500,8 +790,8 @@
             },
             {
               "Id": 143,
-              "StartLine": 60,
-              "EndLine": 60,
+              "StartLine": 65,
+              "EndLine": 65,
               "StartColumn": 13,
               "EndColumn": 55,
               "Class": "XOProject.Controller.ShareController/<Post>d__8",
@@ -511,8 +801,52 @@
             },
             {
               "Id": 144,
+              "StartLine": 67,
+              "EndLine": 67,
+              "StartColumn": 13,
+              "EndColumn": 56,
+              "Class": "XOProject.Controller.ShareController/<Post>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Post>d__8::MoveNext()",
+              "Instruction": "IL_00b7: ldarg "
+            },
+            {
+              "Id": 145,
+              "StartLine": 60,
+              "EndLine": 60,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "XOProject.Controller.ShareController/<Post>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Post>d__8::MoveNext()",
+              "Instruction": "IL_0012: ldarg "
+            },
+            {
+              "Id": 146,
               "StartLine": 62,
               "EndLine": 62,
+              "StartColumn": 17,
+              "EndColumn": 47,
+              "Class": "XOProject.Controller.ShareController/<Post>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Post>d__8::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 147,
+              "StartLine": 65,
+              "EndLine": 65,
+              "StartColumn": 13,
+              "EndColumn": 55,
+              "Class": "XOProject.Controller.ShareController/<Post>d__8",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.ShareController/<Post>d__8::MoveNext()",
+              "Instruction": "IL_0046: ldarg "
+            },
+            {
+              "Id": 148,
+              "StartLine": 67,
+              "EndLine": 67,
               "StartColumn": 13,
               "EndColumn": 56,
               "Class": "XOProject.Controller.ShareController/<Post>d__8",
@@ -525,7 +859,7 @@
         "XOProject\\Controller\\TradeController.cs": {
           "Instructions": [
             {
-              "Id": 145,
+              "Id": 149,
               "StartLine": 14,
               "EndLine": 14,
               "StartColumn": 53,
@@ -536,7 +870,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 146,
+              "Id": 150,
               "StartLine": 14,
               "EndLine": 14,
               "StartColumn": 58,
@@ -547,7 +881,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 147,
+              "Id": 151,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 53,
@@ -558,7 +892,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 148,
+              "Id": 152,
               "StartLine": 15,
               "EndLine": 15,
               "StartColumn": 58,
@@ -569,7 +903,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 149,
+              "Id": 153,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 61,
@@ -580,7 +914,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 150,
+              "Id": 154,
               "StartLine": 16,
               "EndLine": 16,
               "StartColumn": 66,
@@ -591,7 +925,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 151,
+              "Id": 155,
               "StartLine": 18,
               "EndLine": 18,
               "StartColumn": 9,
@@ -602,7 +936,7 @@
               "Instruction": "IL_0000: ldarg "
             },
             {
-              "Id": 152,
+              "Id": 156,
               "StartLine": 20,
               "EndLine": 20,
               "StartColumn": 13,
@@ -613,7 +947,7 @@
               "Instruction": "IL_0008: ldarg "
             },
             {
-              "Id": 153,
+              "Id": 157,
               "StartLine": 21,
               "EndLine": 21,
               "StartColumn": 13,
@@ -624,7 +958,7 @@
               "Instruction": "IL_0010: ldarg "
             },
             {
-              "Id": 154,
+              "Id": 158,
               "StartLine": 22,
               "EndLine": 22,
               "StartColumn": 13,
@@ -635,53 +969,97 @@
               "Instruction": "IL_0018: ldarg "
             },
             {
-              "Id": 155,
-              "StartLine": 29,
-              "EndLine": 29,
-              "StartColumn": 13,
-              "EndColumn": 96,
-              "Class": "XOProject.Controller.TradeController/<GetAllTradings>d__13",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.TradeController/<GetAllTradings>d__13::MoveNext()",
-              "Instruction": "IL_0024: ldarg "
-            },
-            {
-              "Id": 156,
-              "StartLine": 30,
-              "EndLine": 30,
-              "StartColumn": 13,
-              "EndColumn": 30,
-              "Class": "XOProject.Controller.TradeController/<GetAllTradings>d__13",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.TradeController/<GetAllTradings>d__13::MoveNext()",
-              "Instruction": "IL_00b9: ldarg "
-            },
-            {
-              "Id": 157,
-              "StartLine": 29,
-              "EndLine": 29,
-              "StartColumn": 13,
-              "EndColumn": 96,
-              "Class": "XOProject.Controller.TradeController/<GetAllTradings>d__13",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.TradeController/<GetAllTradings>d__13::MoveNext()",
-              "Instruction": "IL_0024: ldarg "
-            },
-            {
-              "Id": 158,
-              "StartLine": 30,
-              "EndLine": 30,
-              "StartColumn": 13,
-              "EndColumn": 30,
-              "Class": "XOProject.Controller.TradeController/<GetAllTradings>d__13",
-              "Method": "MoveNext",
-              "MethodFullName": "System.Void XOProject.Controller.TradeController/<GetAllTradings>d__13::MoveNext()",
-              "Instruction": "IL_00b9: ldarg "
-            },
-            {
               "Id": 159,
-              "StartLine": 44,
-              "EndLine": 44,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 96,
+              "Class": "XOProject.Controller.TradeController/<GetAllTradings>d__13",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.TradeController/<GetAllTradings>d__13::MoveNext()",
+              "Instruction": "IL_0024: ldarg "
+            },
+            {
+              "Id": 160,
+              "StartLine": 31,
+              "EndLine": 31,
+              "StartColumn": 13,
+              "EndColumn": 43,
+              "Class": "XOProject.Controller.TradeController/<GetAllTradings>d__13",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.TradeController/<GetAllTradings>d__13::MoveNext()",
+              "Instruction": "IL_00b9: ldarg "
+            },
+            {
+              "Id": 161,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 16,
+              "EndColumn": 34,
+              "Class": "XOProject.Controller.TradeController/<GetAllTradings>d__13",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.TradeController/<GetAllTradings>d__13::MoveNext()",
+              "Instruction": "IL_00cb: ldarg "
+            },
+            {
+              "Id": 162,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 13,
+              "EndColumn": 30,
+              "Class": "XOProject.Controller.TradeController/<GetAllTradings>d__13",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.TradeController/<GetAllTradings>d__13::MoveNext()",
+              "Instruction": "IL_00d9: ldarg "
+            },
+            {
+              "Id": 163,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 96,
+              "Class": "XOProject.Controller.TradeController/<GetAllTradings>d__13",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.TradeController/<GetAllTradings>d__13::MoveNext()",
+              "Instruction": "IL_0024: ldarg "
+            },
+            {
+              "Id": 164,
+              "StartLine": 31,
+              "EndLine": 31,
+              "StartColumn": 13,
+              "EndColumn": 43,
+              "Class": "XOProject.Controller.TradeController/<GetAllTradings>d__13",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.TradeController/<GetAllTradings>d__13::MoveNext()",
+              "Instruction": "IL_00b9: ldarg "
+            },
+            {
+              "Id": 165,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 16,
+              "EndColumn": 34,
+              "Class": "XOProject.Controller.TradeController/<GetAllTradings>d__13",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.TradeController/<GetAllTradings>d__13::MoveNext()",
+              "Instruction": "IL_00cb: ldarg "
+            },
+            {
+              "Id": 166,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 13,
+              "EndColumn": 30,
+              "Class": "XOProject.Controller.TradeController/<GetAllTradings>d__13",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void XOProject.Controller.TradeController/<GetAllTradings>d__13::MoveNext()",
+              "Instruction": "IL_00d9: ldarg "
+            },
+            {
+              "Id": 167,
+              "StartLine": 48,
+              "EndLine": 48,
               "StartColumn": 13,
               "EndColumn": 86,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -690,9 +1068,9 @@
               "Instruction": "IL_0024: ldarg "
             },
             {
-              "Id": 160,
-              "StartLine": 45,
-              "EndLine": 45,
+              "Id": 168,
+              "StartLine": 49,
+              "EndLine": 49,
               "StartColumn": 13,
               "EndColumn": 43,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -701,9 +1079,9 @@
               "Instruction": "IL_00b9: ldarg "
             },
             {
-              "Id": 161,
-              "StartLine": 46,
-              "EndLine": 46,
+              "Id": 169,
+              "StartLine": 50,
+              "EndLine": 50,
               "StartColumn": 17,
               "EndColumn": 35,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -712,9 +1090,9 @@
               "Instruction": "IL_00cb: ldarg "
             },
             {
-              "Id": 162,
-              "StartLine": 49,
-              "EndLine": 49,
+              "Id": 170,
+              "StartLine": 53,
+              "EndLine": 53,
               "StartColumn": 13,
               "EndColumn": 83,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -723,9 +1101,9 @@
               "Instruction": "IL_00dc: ldarg "
             },
             {
-              "Id": 163,
-              "StartLine": 50,
-              "EndLine": 50,
+              "Id": 171,
+              "StartLine": 54,
+              "EndLine": 54,
               "StartColumn": 13,
               "EndColumn": 85,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -734,9 +1112,9 @@
               "Instruction": "IL_013f: ldarg "
             },
             {
-              "Id": 164,
-              "StartLine": 52,
-              "EndLine": 52,
+              "Id": 172,
+              "StartLine": 56,
+              "EndLine": 56,
               "StartColumn": 13,
               "EndColumn": 50,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -745,9 +1123,9 @@
               "Instruction": "IL_01a2: ldarg "
             },
             {
-              "Id": 165,
-              "StartLine": 55,
-              "EndLine": 55,
+              "Id": 173,
+              "StartLine": 59,
+              "EndLine": 59,
               "StartColumn": 13,
               "EndColumn": 45,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -756,9 +1134,9 @@
               "Instruction": "IL_01ad: ldarg "
             },
             {
-              "Id": 166,
-              "StartLine": 57,
-              "EndLine": 64,
+              "Id": 174,
+              "StartLine": 61,
+              "EndLine": 68,
               "StartColumn": 17,
               "EndColumn": 20,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -767,9 +1145,9 @@
               "Instruction": "IL_01c5: ldarg "
             },
             {
-              "Id": 167,
-              "StartLine": 67,
-              "EndLine": 67,
+              "Id": 175,
+              "StartLine": 71,
+              "EndLine": 71,
               "StartColumn": 13,
               "EndColumn": 46,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -778,9 +1156,9 @@
               "Instruction": "IL_0345: ldarg "
             },
             {
-              "Id": 168,
-              "StartLine": 69,
-              "EndLine": 76,
+              "Id": 176,
+              "StartLine": 73,
+              "EndLine": 80,
               "StartColumn": 17,
               "EndColumn": 16,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -789,9 +1167,9 @@
               "Instruction": "IL_035d: ldarg "
             },
             {
-              "Id": 169,
-              "StartLine": 79,
-              "EndLine": 79,
+              "Id": 177,
+              "StartLine": 83,
+              "EndLine": 83,
               "StartColumn": 13,
               "EndColumn": 29,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -800,9 +1178,9 @@
               "Instruction": "IL_04dd: ldarg "
             },
             {
-              "Id": 170,
-              "StartLine": 44,
-              "EndLine": 44,
+              "Id": 178,
+              "StartLine": 48,
+              "EndLine": 48,
               "StartColumn": 13,
               "EndColumn": 86,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -811,9 +1189,9 @@
               "Instruction": "IL_0024: ldarg "
             },
             {
-              "Id": 171,
-              "StartLine": 45,
-              "EndLine": 45,
+              "Id": 179,
+              "StartLine": 49,
+              "EndLine": 49,
               "StartColumn": 13,
               "EndColumn": 43,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -822,9 +1200,9 @@
               "Instruction": "IL_00b9: ldarg "
             },
             {
-              "Id": 172,
-              "StartLine": 46,
-              "EndLine": 46,
+              "Id": 180,
+              "StartLine": 50,
+              "EndLine": 50,
               "StartColumn": 17,
               "EndColumn": 35,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -833,9 +1211,9 @@
               "Instruction": "IL_00cb: ldarg "
             },
             {
-              "Id": 173,
-              "StartLine": 49,
-              "EndLine": 49,
+              "Id": 181,
+              "StartLine": 53,
+              "EndLine": 53,
               "StartColumn": 13,
               "EndColumn": 83,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -844,9 +1222,9 @@
               "Instruction": "IL_00dc: ldarg "
             },
             {
-              "Id": 174,
-              "StartLine": 50,
-              "EndLine": 50,
+              "Id": 182,
+              "StartLine": 54,
+              "EndLine": 54,
               "StartColumn": 13,
               "EndColumn": 85,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -855,9 +1233,9 @@
               "Instruction": "IL_013f: ldarg "
             },
             {
-              "Id": 175,
-              "StartLine": 52,
-              "EndLine": 52,
+              "Id": 183,
+              "StartLine": 56,
+              "EndLine": 56,
               "StartColumn": 13,
               "EndColumn": 50,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -866,9 +1244,9 @@
               "Instruction": "IL_01a2: ldarg "
             },
             {
-              "Id": 176,
-              "StartLine": 55,
-              "EndLine": 55,
+              "Id": 184,
+              "StartLine": 59,
+              "EndLine": 59,
               "StartColumn": 13,
               "EndColumn": 45,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -877,9 +1255,9 @@
               "Instruction": "IL_01ad: ldarg "
             },
             {
-              "Id": 177,
-              "StartLine": 57,
-              "EndLine": 64,
+              "Id": 185,
+              "StartLine": 61,
+              "EndLine": 68,
               "StartColumn": 17,
               "EndColumn": 20,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -888,9 +1266,9 @@
               "Instruction": "IL_01c5: ldarg "
             },
             {
-              "Id": 178,
-              "StartLine": 67,
-              "EndLine": 67,
+              "Id": 186,
+              "StartLine": 71,
+              "EndLine": 71,
               "StartColumn": 13,
               "EndColumn": 46,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -899,9 +1277,9 @@
               "Instruction": "IL_0345: ldarg "
             },
             {
-              "Id": 179,
-              "StartLine": 69,
-              "EndLine": 76,
+              "Id": 187,
+              "StartLine": 73,
+              "EndLine": 80,
               "StartColumn": 17,
               "EndColumn": 16,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
@@ -910,9 +1288,9 @@
               "Instruction": "IL_035d: ldarg "
             },
             {
-              "Id": 180,
-              "StartLine": 79,
-              "EndLine": 79,
+              "Id": 188,
+              "StartLine": 83,
+              "EndLine": 83,
               "StartColumn": 13,
               "EndColumn": 29,
               "Class": "XOProject.Controller.TradeController/<GetAnalysis>d__14",
