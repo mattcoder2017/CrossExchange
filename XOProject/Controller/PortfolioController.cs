@@ -1,9 +1,11 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace XOProject.Controller
 {
+    [EnableCors("permitone")]
     [Route("api/Portfolio")]
     public class PortfolioController : ControllerBase
     {
@@ -13,7 +15,7 @@ namespace XOProject.Controller
         {
             _portfolioRepository = portfolioRepository;
         }
-
+       
         [HttpGet("{portFolioid}")]
         public async Task<IActionResult> GetPortfolioInfo([FromRoute]int portFolioid)
         {
@@ -25,7 +27,6 @@ namespace XOProject.Controller
 
             return Ok(portfolio);
         }
-
 
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]Portfolio value)

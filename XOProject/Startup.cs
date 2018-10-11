@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using XOProject.Authentication;
 
 namespace XOProject
 {
@@ -23,6 +24,17 @@ namespace XOProject
             services.AddTransient<IShareRepository, ShareRepository>();
             services.AddTransient<IPortfolioRepository, PortfolioRepository>();
             services.AddTransient<ITradeRepository, TradeRepository>();
+
+            //Adding CORS to allow access from permitted origin
+            services.AddCors(cfg =>
+            {
+                cfg.AddPolicy("permitone", policy =>
+                {
+                    policy.WithOrigins("http://localhost:21154"); //can be specific on the origin or referer to be permitted
+                    //AllowAnyOrigin();  
+
+                });
+            });
             services.AddMvc();
         }
 
@@ -39,9 +51,13 @@ namespace XOProject
                 app.UseHttpStatusCodeExceptionMiddleware();
                 app.UseExceptionHandler();
             }
-
+            //Adding CORS to allow access from permitted origin
+            app.UseCors("permitone");
+            //Remove security volunerability by adding authentication
+            app.UseMiddleware<XOAuthenticationMiddleware>();
+            
+          
             app.UseStaticFiles();
-
             app.UseMvc();
         }
     }
